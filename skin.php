@@ -31,6 +31,7 @@ class thesis_bizlife extends thesis_skin {
 		// require the box file, presumably box.php and packaged in the skin
 		require_once(dirname(__FILE__) . '/boxes/logo-box/box.php');
 		require_once(dirname(__FILE__) . '/boxes/credit-box/box.php');
+
 		// merge the main box array with yours.
 		return array_merge($boxes, $this->boxes_class_list);
 	}

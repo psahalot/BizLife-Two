@@ -665,7 +665,7 @@ function thesis_generate_skin_option_templates(){
       'thesis_post_box_1349765666' => 
       array (
         0 => 'thesis_html_container_1349821072',
-        1 => 'thesis_post_box_1349765666_thesis_post_excerpt',
+        1 => 'thesis_html_container_1349862482',
         2 => 'thesis_html_container_1349821184',
       ),
       'thesis_html_container_1349821072' => 
@@ -678,6 +678,10 @@ function thesis_generate_skin_option_templates(){
         0 => 'thesis_post_box_1349765666_thesis_post_author',
         1 => 'thesis_post_box_1349765666_thesis_post_date',
         2 => 'thesis_post_box_1349765666_thesis_post_edit',
+      ),
+      'thesis_html_container_1349862482' => 
+      array (
+        0 => 'thesis_post_box_1349765666_thesis_post_excerpt',
       ),
       'thesis_html_container_1349821184' => 
       array (
