@@ -20,11 +20,21 @@ class thesis_bizlife extends thesis_skin {
 
 	// pseudo constructor function. use this over __construct() or you risk and explosion ;)
 	function construct() {
+		// load Google fonts
+		add_action( 'wp_enqueue_scripts', array($this,'bizlife_google_fonts') );
 		// filter that contains all the boxes
 		add_filter('thesis_boxes', array($this, 'add_boxes'));
 		add_filter('widget_text', 'do_shortcode');
 		// load TGM plugin activation library for installing Soliloquy Lite
 		require_once(dirname(__FILE__) . '/tgmpa/tgm-plugin-installation.php');
+	}
+
+	function bizlife_google_fonts() {
+   	 wp_enqueue_style( 
+    		'google-fonts', 
+	    	'http://fonts.googleapis.com/css?family=Droid+Serif:400,700', 
+	    	array()
+	    );
 	}
 
 	function add_boxes($boxes) {
