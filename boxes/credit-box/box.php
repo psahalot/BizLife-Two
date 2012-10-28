@@ -1,8 +1,9 @@
 <?php
 /*
-Name: Simple Logo Box
-Author: DIYWPBlog.com
-Description: Simple Box to Add a Logo
+Name: Credit Links Box
+Author: Puneet Sahalot 
+Author URI: http://icustomizethesis.com
+Description: This box adds a credit link to BizLife Skin
 Version: 1.0
 Class: bizlife_credit_box
 */

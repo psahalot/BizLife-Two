@@ -296,5 +296,4 @@ color:#fff;
 }
 .flex-container { border-width: 3px; border-style: solid; border-color: #fff; margin-right: auto; margin-left: auto; }
 .flex-container {margin:0 auto !important;}
-@import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700);
 .menu:after, .columns-2:after, .comment .comment_text:after { content: "."; display: block; height: 0; clear: both; visibility: hidden; }
