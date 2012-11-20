@@ -4,7 +4,7 @@
 Name: Thesis BizLife
 Author: Puneet Sahalot
 Author URI: http://icustomizethesis.com/
-Version: 1.0
+Version: 1.0.1
 Description: Build your portfolio or business site quickly with a few clicks. It's all possible with the new beast, Thesis 2.0 and BizLife 
 Class: thesis_bizlife
 */
