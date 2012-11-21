@@ -191,7 +191,6 @@ function thesis_bizlife_defaults() {
     array (
       'thesis_previous_posts_link' => 
       array (
-        'html' => 'span',
         'text' => '← Previous Entries',
       ),
     ),
@@ -199,7 +198,6 @@ function thesis_bizlife_defaults() {
     array (
       'thesis_next_posts_link' => 
       array (
-        'html' => 'span',
         'text' => 'Next Entries →',
       ),
     ),
@@ -207,7 +205,6 @@ function thesis_bizlife_defaults() {
     array (
       'thesis_wp_nav_menu_1349745061' => 
       array (
-        'menu' => '37',
         '_name' => 'Menu',
       ),
     ),
@@ -301,7 +298,7 @@ function thesis_bizlife_defaults() {
         'html' => 'h2',
         'link' => 
         array (
-          'on' => '1',
+          'on' => true,
         ),
         '_parent' => 'thesis_post_box_1349765666',
       ),
@@ -369,8 +366,16 @@ function thesis_bizlife_defaults() {
       array (
         'wp' => 
         array (
-          'auto' => '1',
+          'auto' => true,
         ),
+      ),
+    ),
+    'thesis_text_box' => 
+    array (
+      'thesis_text_box_1353528689' => 
+      array (
+        'text' => '© Copyright 2012 |  <a href="http://icustomizethesis.com/thesis-skins/">Thesis 2.0 Skin</a> by <a href="http://icustomizethesis.com">iCustomizeThesis</a>.',
+        '_name' => 'Credits',
       ),
     ),
   ),
@@ -1273,7 +1278,7 @@ textarea.input_text { line-height: $single; }',
         ),
         'thesis_html_container_1349766668' => 
         array (
-          0 => 'bizlife_credit_box',
+          0 => 'thesis_text_box_1353528689',
         ),
         'thesis_html_container_1349746669' => 
         array (
@@ -1407,7 +1412,7 @@ textarea.input_text { line-height: $single; }',
         ),
         'thesis_html_container_1349766668' => 
         array (
-          0 => 'bizlife_credit_box',
+          0 => 'thesis_text_box_1353528689',
         ),
         'thesis_post_box_1349822500' => 
         array (
@@ -1548,7 +1553,7 @@ textarea.input_text { line-height: $single; }',
         ),
         'thesis_html_container_1349766668' => 
         array (
-          0 => 'bizlife_credit_box',
+          0 => 'thesis_text_box_1353528689',
         ),
         'thesis_html_container_1349746669' => 
         array (
@@ -1679,7 +1684,7 @@ textarea.input_text { line-height: $single; }',
         ),
         'thesis_html_container_1349766668' => 
         array (
-          0 => 'bizlife_credit_box',
+          0 => 'thesis_text_box_1353528689',
         ),
         'thesis_html_container_1349746669' => 
         array (
@@ -1709,8 +1714,6 @@ textarea.input_text { line-height: $single; }',
         array (
           0 => 'thesis_comments_1349768068_thesis_comment_author',
           1 => 'thesis_comments_1349768068_thesis_comment_date',
-          2 => 'thesis_comments_1349768068_thesis_comment_author',
-          3 => 'thesis_comments_1349768068_thesis_comment_date',
         ),
         'thesis_post_box_1349765666' => 
         array (
@@ -1729,10 +1732,9 @@ textarea.input_text { line-height: $single; }',
         'thesis_comments_1349768068' => 
         array (
           0 => 'thesis_comments_1349768068_thesis_comment_avatar',
-          1 => 'thesis_html_container_1349824230',
-          2 => 'thesis_comments_1349768068_thesis_comment_text',
-          3 => 'thesis_comments_1349768068_thesis_comment_reply',
-          4 => 'thesis_comments_1349768068_thesis_comment_edit',
+          1 => 'thesis_comments_1349768068_thesis_comment_text',
+          2 => 'thesis_comments_1349768068_thesis_comment_reply',
+          3 => 'thesis_comments_1349768068_thesis_comment_edit',
         ),
         'thesis_comment_form_1349768102' => 
         array (
@@ -1862,7 +1864,7 @@ textarea.input_text { line-height: $single; }',
         ),
         'thesis_html_container_1349865221' => 
         array (
-          0 => 'bizlife_credit_box',
+          0 => 'thesis_text_box_1353528689',
         ),
         'thesis_html_container_1349746669' => 
         array (
