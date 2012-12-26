@@ -191,14 +191,14 @@ function thesis_bizlife_defaults() {
     array (
       'thesis_previous_posts_link' => 
       array (
-        'text' => '← Previous Entries',
+        'text' => 'Previous Entries',
       ),
     ),
     'thesis_next_posts_link' => 
     array (
       'thesis_next_posts_link' => 
       array (
-        'text' => 'Next Entries →',
+        'text' => 'Next Entries',
       ),
     ),
     'thesis_wp_nav_menu' => 
