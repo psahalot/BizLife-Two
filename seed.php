@@ -374,7 +374,7 @@ function thesis_bizlife_defaults() {
     array (
       'thesis_text_box_1353528689' => 
       array (
-        'text' => '© Copyright 2012 |  <a href="http://icustomizethesis.com/thesis-skins/">Thesis 2.0 Skin</a> by <a href="http://icustomizethesis.com">iCustomizeThesis</a>.',
+        'text' => '© Copyright 2012 |  <a href="http://icustomizethesis.com/thesis-skins/">Thesis Skin</a> by <a href="http://icustomizethesis.com/">iCustomizeThesis</a>.',
         '_name' => 'Credits',
       ),
     ),
